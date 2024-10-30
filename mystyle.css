@@ -75,6 +75,15 @@ h2{
 
 .informhide{
     display: none;
+    align-items: center;
+    margin: 15px;
+    font-size: 18px;
+    background-color: rgb(245, 242, 245);
+    border-radius: 8px;
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.1);
+    animation-name: slideup;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;   
 }
 .pichide{
     display: none;
@@ -124,12 +133,13 @@ h3{
     font-size: 18px;
     font-family: "Averia Serif Libre";
     background-color: skyblue;
-    height: 20px;
-    width: 250px;
     padding: 20px;
-    margin-top: 20px;
     border-radius: 80px;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 10px;
+    width: auto;
 }
 
 summary{
@@ -401,14 +411,9 @@ main{
     }
     .informhide{
         display: block;
-        margin: 15px;
         font-size: 10px;
-        background-color: rgb(245, 242, 245);
-        border-radius: 8px;
-        box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.1);
-        animation-name: slideup;
-        animation-duration: 3s;
-        animation-timing-function: ease-out;   
+        padding-top: 5px;
+        padding-bottom: 5px; 
     }
     .video{
         width: 250px;
@@ -418,17 +423,14 @@ main{
     }
     #music{
         width: 200px;
-        height: 30px;
+        height: 19px;
     }
     .click{
         font-size: 10px;
     }
     .contact{
         font-size: 10px;
-        margin: 0 auto;
         margin-top: 10px;
-        height: 10px;
-        width: auto;
     }
 }
 
@@ -444,6 +446,7 @@ main{
     }
     h2{
         font-size: 20px;
+        margin-top: 30px;
     }
     #mypic{
         width: 200px;
@@ -464,18 +467,11 @@ main{
     }
     .informhide{
         display: block;
-        align-items: center;
-        margin: 15px;
-        font-size: 13px;
-        background-color: rgb(245, 242, 245);
-        border-radius: 8px;
-        box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.1);
-        animation-name: slideup;
-        animation-duration: 3s;
-        animation-timing-function: ease-out;   
+        padding-right: 20px;
+        font-size: 12px;
     }
     .video{
-        width: 350px;
+        width: 400px;
         height: auto;
         margin-top: 0px;
         margin-bottom: 10px;
@@ -486,13 +482,60 @@ main{
     }
     .click{
         font-size: 14px;
+        margin-top: 30px;
     }
     .contact{
         font-size: 14px;
         margin: 0 auto;
-        margin-top: 10px;
+        margin-top: 30px;
         height: 10px;
         width: auto;
     }
 }
 
+
+/*desktop screen*/
+@media screen and (min-width: 1000px) {
+    header{
+        font-size: 30px;
+        height: 180px;
+        padding-top: 20px;
+    }
+    .icon-bar a{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    table{
+        display: block;
+        margin-bottom: 40px;
+    }
+    #mypic{
+        width: 250px;
+        height: auto;
+    }
+    li{
+        font-size: 15px;
+    }
+    .picinform{
+        display: none;
+    }
+    .video{
+        width: 450px;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom:40px;
+    }
+    #music{
+        width: 500px;
+        height: 30px;
+    }
+    .click{
+        font-size: 17px;
+    }
+    .contact{
+        font-size: 18px;
+        margin-top: 40px;
+    }
+}
