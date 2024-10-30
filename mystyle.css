@@ -432,4 +432,67 @@ main{
     }
 }
 
+/*tablet screen*/
+@media screen and (min-width: 600px) {
+    header{
+        font-size: 25px;
+        height: 140px;
+        padding-top: 20px;
+    }
+    .icon-bar a{
+        font-size: 17px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #mypic{
+        width: 200px;
+        height: auto;
+    }
+    table{
+        display: none;
+    }
+    .picinform{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .pichide{
+        display: inline;
+        width: 200px;
+        height: auto;
+    }
+    .informhide{
+        display: block;
+        align-items: center;
+        margin: 15px;
+        font-size: 13px;
+        background-color: rgb(245, 242, 245);
+        border-radius: 8px;
+        box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.1);
+        animation-name: slideup;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;   
+    }
+    .video{
+        width: 350px;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    #music{
+        width: 200px;
+        height: 30px;
+    }
+    .click{
+        font-size: 14px;
+    }
+    .contact{
+        font-size: 14px;
+        margin: 0 auto;
+        margin-top: 10px;
+        height: 10px;
+        width: auto;
+    }
+}
 
