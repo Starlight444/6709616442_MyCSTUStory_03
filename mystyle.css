@@ -140,6 +140,12 @@ h3{
     margin-top: 20px;
     height: 10px;
     width: auto;
+    transition: 0.4s ease;
+}
+.contact[open]{
+    background-color: #9effd3;
+    height: 60px;
+    margin-bottom: 20px;
 }
 
 summary{
@@ -427,10 +433,10 @@ main{
         height: 19px;
     }
     .click{
-        font-size: 10px;
+        font-size: 14px;
     }
     .contact{
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 20px;
     }
 }
@@ -482,15 +488,12 @@ main{
         height: 30px;
     }
     .click{
-        font-size: 14px;
+        font-size: 17px;
         margin-top: 30px;
     }
     .contact{
-        font-size: 14px;
-        margin: 0 auto;
+        font-size: 16px;
         margin-top: 30px;
-        height: 10px;
-        width: auto;
     }
 }
 
@@ -533,7 +536,7 @@ main{
         height: 30px;
     }
     .click{
-        font-size: 17px;
+        font-size: 18px;
     }
     .contact{
         font-size: 18px;
