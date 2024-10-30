@@ -414,6 +414,7 @@ main{
         font-size: 10px;
         padding-top: 5px;
         padding-bottom: 5px; 
+        padding-right: 30px;
     }
     .video{
         width: 250px;
